@@ -104,7 +104,7 @@ def init_project(
                 "version": version,
                 "description": desc,
                 "requires-python": f">={req_py}",
-                "authors": [{"name": name, "email": email}],
+                "authors": [{"name": author, "email": email}],
                 "dependencies": deps.split(),
             },
         }
